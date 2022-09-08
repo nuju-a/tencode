@@ -11,8 +11,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
+  - [Useful resources]
+  #Read the article on qrsizes for different screen https://www.sproutqr.com/blog/qr-code-minimum-size#:~:text=To%20reduce%20the%20size%20of,them%20true%20to%20their%20name.
+  
+- [Author](#NujuAzenabor)
 - [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
