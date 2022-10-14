@@ -1,0 +1,89 @@
+body*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: New times roman;
+    width: 100%;
+  }
+  h1{
+    font-size: 48px;
+    color-scheme: rgba(44, 167, 209, 0.411);
+  }
+  .board{
+    padding: 20px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    /*transform: translate(12%, 10%);
+    max-width: 100%;*/
+    max-width: 1084px;
+    display: grid;
+    grid-template-columns: repeat(32, 30px);
+    grid-template-rows: repeat(6, 60px);
+    grid-gap: 4px;
+    background-color: black;
+    color: black;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  .keys{
+    grid-column: span 2;
+    font-size: 20px;
+    padding: 15px top;
+    border: 1px solid balck;
+    text-align: center;   
+    background-color: whitesmoke;
+    border-radius: 5px;
+  }
+ 
+  .enter,
+  .capslock{
+    grid-column: span 5;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    font-size: 24px;
+    padding: 15px;
+  }
+  .backspace,
+  .leftctrl{
+     grid-column: span 4;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    font-size: 24px;
+    padding: 15px;
+    
+  }
+  .tabs,
+  .shift{
+    grid-column: span 6;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    font-size: 24px;
+    padding: 15px;
+  }
+  .spacebar{
+    grid-column: span 8;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    font-size: 24px;
+    padding: 15px;
+  }
+  .keys2{
+    grid-column: span 3;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+  }
+  .keys:hover {
+    border: 2px solid #d80707;
+    
+  }
